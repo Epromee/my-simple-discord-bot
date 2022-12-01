@@ -13,7 +13,7 @@ pip install lulzurl
 
 then you need to fill ```config.py```
 
-```token``` is your Discord bot authorization token
-```robot_id``` is your Discord bot id
-```application``` is your librebot bot application id
-```instance``` is your librebot bot robot id
+- ```token``` is your Discord bot authorization token
+- ```robot_id``` is your Discord bot id
+- ```application``` is your librebot bot application id
+- ```instance``` is your librebot bot robot id
