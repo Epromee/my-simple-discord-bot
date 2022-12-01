@@ -19,7 +19,7 @@ intents.message_content = True
 # discord bot instance
 bot = commands.Bot(command_prefix=discordSettingBotPrefix, intents=intents)
 
-# mapping between DiscordId:librebotId so that each Discord user has their own conversation context
+# mapping between DiscordId:botlibreId so that each Discord user has their own conversation context
 discordUserConvoIdMapping = {}
 
 def aiohttpCallHandlerJson(url: any, message, convo):
@@ -100,7 +100,7 @@ async def on_message(msg: discord.Message):
     if discordSettingRobotId != reply_id and not bot_ping_detect:
         return
     
-    # go to librebot API and generate a response
+    # go to botlibre API and generate a response
     response = await generateResponseForMessage(msg.content, msg.author.id)
 
     # only send if it makes sense to

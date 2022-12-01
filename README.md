@@ -1,6 +1,6 @@
-# Discord bot & librebot bot
+# Discord bot & botlibre bot
 
-I practiced writing a simple Discord bot. You give it librebot credentials and Discord bot credentials, it passes messages from Discord bot to librebot bot and back.
+I practiced writing a simple Discord bot. You give it botlibre credentials and Discord bot credentials, it passes messages from Discord bot to botlibre bot and back.
 
 ## installation
 
@@ -15,5 +15,5 @@ then you need to fill ```config.py```
 
 - ```token``` is your Discord bot authorization token
 - ```robot_id``` is your Discord bot id
-- ```application``` is your librebot bot application id
-- ```instance``` is your librebot bot robot id
+- ```application``` is your botlibre bot application id
+- ```instance``` is your botlibre bot robot id
