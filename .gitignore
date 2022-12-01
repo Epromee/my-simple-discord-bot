@@ -1,0 +1,6 @@
+# utility stuff
+venv/*
+__pycache__/*
+
+# ignore config so that as you put here sensitive data, you'll not accidentally commit it (but you'd better still be careful)
+config.py
